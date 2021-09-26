@@ -1,0 +1,5 @@
+export { List as AttributesList } from "./pages/list/List"
+export { Edit as AttributeEdit } from "./pages/edit/Edit"
+export { Delete as AttributeDelete } from "./pages/delete/Delete"
+export { EntityCard as AttributeEntityCard } from "./components/EntityCard"
+export { Field as AttributeField } from "./components/Field"

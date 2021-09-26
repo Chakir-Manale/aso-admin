@@ -1,0 +1,19 @@
+{
+  "DB.LEGAL_FORMS.SELF_EMPLOYED": "Self Employed",
+  "DB.LEGAL_FORMS.INDIVIDUAL_COMPANY": "Individual company",
+  "DB.LEGAL_FORMS.COOPERATIVE_SOCIETY": "Cooperative Society",
+  "DB.LEGAL_FORMS.NGO": "Non-governmental organization",
+  "DB.LEGAL_FORMS.EMPLOYEE": "Employee",
+  "DB.LEGAL_FORMS.STUDENT": "Student",
+  "DB.LEGAL_FORMS.OTHER": "Other",
+
+  "DB.PAYMENT_TERM.FIXED": "Fixed",
+  "DB.PAYMENT_TERM.HOURLY": "Hourly",
+  "DB.PAYMENT_TERM.UNKNOWN": "Unknown",
+
+  "DB.EXCEPTION.GENERAL": "Server Error",
+  "DB.EXCEPTION.QUERY.23000": "Can't remove/update a referenced object",
+
+  "SERVER.TRANSITION.NOT_FOUND": "Can't make this transition"
+
+}

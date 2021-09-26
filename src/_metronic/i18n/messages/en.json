@@ -1,0 +1,157 @@
+{
+  "AUTH.WELCOME.TITLE": "Welcome to {name}",
+  "AUTH.WELCOME.MESSAGE": "@omar AUTH.WELCOME.MESSAGE",
+  "AUTH.LOGIN.TITLE": "Login Account",
+  "AUTH.LOGIN.SUBTITLE": "Create an Account ?",
+  "AUTH.REGISTER.TITLE": "Create Account",
+  "AUTH.REGISTER.SUBTITLE": "Already have an Account ?",
+  "AUTH.REGISTER.STEP.ACCOUNT": "Your Account",
+  "AUTH.REGISTER.STEP.INFO": "Your Information",
+  "AUTH.REGISTER.STEP.ENJOY": "Enjoy {name}",
+
+  "G.PRIVACY": "Privacy",
+  "G.LEGAL": "Legal",
+  "G.CONTACT": "Contact",
+  "G.PROJECT": "Project",
+  "G.EMAIL": "Email",
+  "G.PASSWORD": "Password",
+  "G.USERNAME": "Username",
+  "G.NAME": "Name",
+  "G.FIRST_NAME": "Firstname",
+  "G.LAST_NAME": "Lastname",
+  "G.SIGN_UP": "Sign Up",
+  "G.SIGN_UP_WITH": "Sign up with {name}",
+  "G.SIGN_IN": "Sign In",
+  "G.COUNTRY": "Country",
+  "G.CITY": "City",
+  "G.PHONE": "Phone",
+  "G.SECURITY_CODE": "Security Code",
+
+
+  "VALIDATION.MIXED.REQUIRED": "{path} is required",
+  "VALIDATION.MIXED.INVALID": "{path} is invalid",
+  "VALIDATION.MIXED.NOT_TYPE": "{path} must be a {type} type, but the final value was: {finalValue}",
+  "VALIDATION.MIXED.ONE_OF": "{path} must be one of the following : {values}",
+  "VALIDATION.MIXED.NO_ONE_OF": "{path} must not be one of the following values: {values}",
+  "VALIDATION.MIXED.DEFINED": "{path} must be defined",
+  "VALIDATION.STRING.LENGTH": "{path} must be exactly {length} characters",
+  "VALIDATION.STRING.MIN": "{path} must be at least {min} characters",
+  "VALIDATION.STRING.MAX": "{path} must be at most {max} characters",
+  "VALIDATION.STRING.MATCHES": "{path} must match the following: \"{regex}\"",
+  "VALIDATION.STRING.EMAIL": "{path} must be a valid email",
+  "VALIDATION.STRING.URL": "{path} must be a valid URL",
+  "VALIDATION.STRING.UUID": "{path} must be a valid UUID",
+  "VALIDATION.STRING.TRIM": "{path} must be a trimmed string",
+  "VALIDATION.STRING.LOWERCASE": "{path} must be a lowercase string",
+  "VALIDATION.STRING.UPPERCASE": "{path} must be a upper case string",
+  "VALIDATION.NUMBER.MIN": "{path} must be greater than or equal to {min}",
+  "VALIDATION.NUMBER.MAX": "{path} must be less than or equal to {max}",
+  "VALIDATION.NUMBER.LESS_THAN": "{path} must be less than {less}",
+  "VALIDATION.NUMBER.MORE_THAN": "{path} must be greater than {more}",
+  "VALIDATION.NUMBER.NOT_EQUAL": "{path} must be not equal to {notEqual}",
+  "VALIDATION.NUMBER.NEGATIVE": "{path} must be a negative number",
+  "VALIDATION.NUMBER.POSITIVE": "{path} must be a positive number",
+  "VALIDATION.NUMBER.INTEGER": "{path} must be an integer",
+  "VALIDATION.ARRAY.MIN": "{path} must have at least {min} items",
+  "VALIDATION.ARRAY.MAX": "{path} must have less than or equal to {max} items",
+  "VALIDATION.DATE.MIN": "{path} field must be later than {min}",
+  "VALIDATION.DATE.MAX": "{path} field must be at earlier than {max}",
+  "VALIDATION.OBJECT.NO_UNKNOWN": "{path} field has unspecified keys: {unknown}",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "TRANSLATOR.SELECT": "Select your language",
+  "MENU.NEW": "new",
+  "MENU.ACTIONS": "Actions",
+  "MENU.CREATE_POST": "Create New Post",
+  "MENU.PAGES": "Pages",
+  "MENU.FEATURES": "Features",
+  "MENU.APPS": "Apps",
+  "MENU.DASHBOARD": "Dashboard",
+  "AUTH.GENERAL.OR": "Or",
+  "AUTH.GENERAL.SUBMIT_BUTTON": "Submit",
+  "AUTH.GENERAL.NO_ACCOUNT": "Don't have an account?",
+  "AUTH.GENERAL.SIGNUP_BUTTON": "Sign Up",
+  "AUTH.GENERAL.FORGOT_BUTTON": "Forgot Password",
+  "AUTH.GENERAL.BACK_BUTTON": "Back",
+  "AUTH.GENERAL.PRIVACY": "Privacy",
+  "AUTH.GENERAL.LEGAL": "Legal",
+  "AUTH.GENERAL.CONTACT": "Contact",
+
+  "AUTH.LOGIN.BUTTON": "Sign In",
+  "AUTH.FORGOT.TITLE": "Forgotten Password?",
+  "AUTH.FORGOT.DESC": "Enter your email to reset your password",
+  "AUTH.FORGOT.SUCCESS": "Your account has been successfully reset.",
+
+  "AUTH.REGISTER.DESC": "Enter your details to create your account",
+  "AUTH.REGISTER.SUCCESS": "Your account has been successfuly registered.",
+  "AUTH.INPUT.EMAIL": "Email",
+  "AUTH.INPUT.FULLNAME": "Fullname",
+  "AUTH.INPUT.PASSWORD": "Password",
+  "AUTH.INPUT.CONFIRM_PASSWORD": "Confirm Password",
+  "AUTH.INPUT.USERNAME": "Username",
+  "AUTH.VALIDATION.INVALID": "{name} is not valid",
+  "AUTH.VALIDATION.REQUIRED": "{name} is required",
+  "AUTH.VALIDATION.MIN_LENGTH": "{name}} minimum length is {{min}",
+  "AUTH.VALIDATION.AGREEMENT_REQUIRED": "Accepting terms & conditions are required",
+  "AUTH.VALIDATION.NOT_FOUND": "The requested {name} is not found",
+  "AUTH.VALIDATION.INVALID_LOGIN": "The login detail is incorrect",
+  "AUTH.VALIDATION.REQUIRED_FIELD": "Required field",
+  "AUTH.VALIDATION.MIN_LENGTH_FIELD": "Minimum field length:",
+  "AUTH.VALIDATION.MAX_LENGTH_FIELD": "Maximum field length:",
+  "AUTH.VALIDATION.INVALID_FIELD": "Field is not valid",
+  "ECOMMERCE.COMMON.SELECTED_RECORDS_COUNT": "Selected records count: ",
+  "ECOMMERCE.COMMON.ALL": "All",
+  "ECOMMERCE.COMMON.SUSPENDED": "Suspended",
+  "ECOMMERCE.COMMON.ACTIVE": "Active",
+  "ECOMMERCE.COMMON.FILTER": "Filter",
+  "ECOMMERCE.COMMON.BY_STATUS": "by Status",
+  "ECOMMERCE.COMMON.BY_TYPE": "by Type",
+  "ECOMMERCE.COMMON.BUSINESS": "Business",
+  "ECOMMERCE.COMMON.INDIVIDUAL": "Individual",
+  "ECOMMERCE.COMMON.SEARCH": "Search",
+  "ECOMMERCE.COMMON.IN_ALL_FIELDS": "in all fields",
+  "ECOMMERCE.ECOMMERCE": "eCommerce",
+  "ECOMMERCE.CUSTOMERS.CUSTOMERS": "Customers",
+  "ECOMMERCE.CUSTOMERS.CUSTOMERS_LIST": "Customers list",
+  "ECOMMERCE.CUSTOMERS.NEW_CUSTOMER": "New Customer",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_SIMPLE.TITLE": "Customer Delete",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_SIMPLE.DESCRIPTION": "Are you sure to permanently delete this customer?",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_SIMPLE.WAIT_DESCRIPTION": "Customer is deleting...",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_SIMPLE.MESSAGE": "Customer has been deleted",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_MULTY.TITLE": "Customers Delete",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_MULTY.DESCRIPTION": "Are you sure to permanently delete selected customers?",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_MULTY.WAIT_DESCRIPTION": "Customers are deleting...",
+  "ECOMMERCE.CUSTOMERS.DELETE_CUSTOMER_MULTY.MESSAGE": "Selected customers have been deleted",
+  "ECOMMERCE.CUSTOMERS.UPDATE_STATUS.TITLE": "Status has been updated for selected customers",
+  "ECOMMERCE.CUSTOMERS.UPDATE_STATUS.MESSAGE": "Selected customers status have successfully been updated",
+  "ECOMMERCE.CUSTOMERS.EDIT.UPDATE_MESSAGE": "Customer has been updated",
+  "ECOMMERCE.CUSTOMERS.EDIT.ADD_MESSAGE": "Customer has been created",
+
+
+
+
+
+
+
+
+
+
+
+
+  "METADATA.PAGINATION.DISPLAY_OF": "Displaying {display} of {total} records"
+
+
+
+}

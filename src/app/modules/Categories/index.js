@@ -1,0 +1,5 @@
+export { List as CategoriesList } from "./pages/list/List"
+export { Edit as CategoryEdit } from "./pages/edit/Edit"
+export { Delete as CategoryDelete } from "./pages/delete/Delete"
+export { EntityCard as CategoryEntityCard } from "./components/EntityCard"
+export { Field as CategoryField } from "./components/Field"

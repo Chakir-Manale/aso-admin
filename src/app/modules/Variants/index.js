@@ -1,0 +1,5 @@
+export { List as VariantsList } from "./pages/list/List"
+export { Edit as VariantEdit } from "./pages/edit/Edit"
+export { Delete as VariantDelete } from "./pages/delete/Delete"
+export { EntityCard as VariantEntityCard } from "./components/EntityCard"
+export { Field as VariantField } from "./components/Field"

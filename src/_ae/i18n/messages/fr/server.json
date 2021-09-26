@@ -1,0 +1,19 @@
+{
+  "DB.LEGAL_FORMS.SELF_EMPLOYED": "صاحب عمل خاص" ,
+  "DB.LEGAL_FORMS.INDIVIDUAL_COMPANY": "شركة فردية" ,
+  "DB.LEGAL_FORMS.COOPERATIVE_SOCIETY": "الجمعية التعاونية" ,
+  "DB.LEGAL_FORMS.NGO": "منظمة غير حكومية" ,
+  "DB.LEGAL_FORMS.EMPLOYEE": "الموظف" ,
+  "DB.LEGAL_FORMS.STUDENT": "الطالب" ,
+  "DB.LEGAL_FORMS.OTHER": "أخرى" ,
+
+  "DB.PAYMENT_TERM.FIXED": "ثابت" ,
+  "DB.PAYMENT_TERM.HOURLY": "كل ساعة",
+  "DB.PAYMENT_TERM.UNKNOWN": "غير معروف" ,
+
+  "DB.EXCEPTION.GENERAL": "خطأ في الخادم" ,
+  "DB.EXCEPTION.QUERY.23000": "لا يمكن إزالة / تحديث كائن مرجعي" ,
+
+  "SERVER.TRANSITION.NOT_FOUND": "لا يمكن إجراء هذا النقل"
+
+}

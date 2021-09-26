@@ -1,0 +1,5 @@
+export { List as StockOrdersList } from "./pages/list/List"
+export { Edit as StockOrdersEdit } from "./pages/edit/Edit"
+export { Detail as StockOrdersDetail } from "./pages/detail/Detail"
+export { EntityCard as StockOrderEntityCard } from "./components/EntityCard"
+export { Field as StockOrderField } from "./components/Field"

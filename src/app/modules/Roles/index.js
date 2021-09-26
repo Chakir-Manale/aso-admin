@@ -1,0 +1,5 @@
+export { List as RolesList } from "./pages/list/List"
+export { Edit as RolesEdit } from "./pages/edit/Edit"
+export { Delete as RolesDelete } from "./pages/delete/Delete"
+export { EntityCard as RoleEntityCard } from "./components/EntityCard"
+export { Field as RoleField } from "./components/Field"

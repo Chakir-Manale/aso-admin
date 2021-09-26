@@ -1,0 +1,5 @@
+export { List as LocationsList } from "./pages/list/List"
+export { Edit as LocationsEdit } from "./pages/edit/Edit"
+export { Delete as LocationsDelete } from "./pages/delete/Delete"
+export { EntityCard as LocationEntityCard } from "./components/EntityCard"
+export { Field as AreaField } from "./components/Field"

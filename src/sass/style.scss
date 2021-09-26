@@ -1,0 +1,129 @@
+
+// Variables
+$primary: #6E863C;
+$primary-hover: #9bb267;
+$primary-light: #e4f3c4;
+$primary-inverse: #FFFFFF;
+$secondary: #8B6C42;
+$secondary-hover: #b29772;
+$secondary-light: #f6e1c4;
+$secondary-inverse: #FFFFFF;
+
+$font-weight-lighter:         						lighter !default;
+$font-weight-light:           						350 !default;
+$font-weight-normal:          						450 !default;
+$font-weight-bold:            						550 !default;
+$font-weight-bolder:          						650 !default;
+$font-weight-boldest:          						750 !default;
+
+
+$card-spacer-y:                     				1rem !default;
+$card-spacer-x:                    					1.25rem !default;
+$grid-gutter-width:           						15px !default;
+
+$page-bg: rgba(237, 243, 233, 0.44) !default;
+//$card-bg: #E4E6EF !default;
+// Theme Styles
+@import "../_metronic/_assets/sass/style.react";
+
+
+
+// Default Layout themes
+// @import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+// @import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+
+// Header themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/base/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/base/dark.scss";
+
+// Header Menu themes
+// Light
+//@import "./_metronic/_assets/sass/themes/layout/header/menu/light.scss";
+// Dark
+// @import "./_metronic/_assets/sass/themes/layout/header/menu/dark.scss";
+
+// Brand themes
+// .brand-dark {
+//   @import "./_metronic/_assets/sass/themes/layout/brand/dark.scss";
+// }
+// // Light
+// .brand-light {
+//   @import "./_metronic/_assets/sass/themes/layout/brand/light.scss";
+// }
+
+// Aside themes
+// Dark
+//@import "./_metronic/_assets/sass/themes/layout/aside/dark.scss";
+// Light
+// @import "./_metronic/_assets/sass/themes/layout/aside/light.scss";
+
+// .example-highlight {
+//   padding: 0rem 1.5rem 1.75rem !important;
+// }
+
+.example-highlight > pre {
+  background: none transparent !important;
+  margin: 0 !important;
+  padding-top: 0.5rem;
+  code {
+    overflow-y: auto;
+    display: block;
+
+    span {
+      background: none transparent !important;
+    }
+  }
+}
+
+.json > pre {
+  background: none #fff !important;
+
+}
+
+.example-code > .json {
+  background: none #fff !important;
+}
+
+.symbol.symbol-45 > svg {
+  width: 100%;
+  max-width: 45px;
+  height: 45px;
+}
+
+.react-bootstrap-table {
+  overflow-x: auto;
+}
+
+.react-bootstrap-table {
+  th {
+    outline: none;
+
+    &.sortable {
+      .svg-icon-sort {
+        opacity: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+
+        .svg-icon-sort {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .table.table-head-custom thead tr {
+    .sortable-active {
+      color: $primary !important;
+    }
+  }
+}
+
+.cursor-default {
+  cursor: default !important;
+}

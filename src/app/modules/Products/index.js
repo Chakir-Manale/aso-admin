@@ -1,0 +1,6 @@
+export { List as ProductsList } from "./pages/list/List"
+export { Edit as ProductEdit } from "./pages/edit/Edit"
+export { Delete as ProductDelete } from "./pages/delete/Delete"
+export { Detail as ProductDetail } from "./pages/detail/Detail"
+export { EntityCard as ProductEntityCard } from "./components/EntityCard"
+export { Field as ProductField } from "./components/Field"
