@@ -16,7 +16,7 @@
         "lint": "eslint src",
         "format": "prettier --write \"src/**/*.{js,css,scss,html}\"",
         "rtl": "webpack",
- 	"heroku-postbuild": "ng build --prod"
+ 	"heroku-postbuild": "npm run build"
     },
     "eslintConfig": {
         "extends": "react-app"
