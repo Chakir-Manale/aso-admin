@@ -52,24 +52,24 @@ export function AuthLayout({children}) {
             <div
               className="d-flex d-lg-none flex-column-auto flex-column flex-sm-row justify-content-between align-items-center mt-5 p-5">
               <div className="text-dark-50 font-weight-bold order-2 order-sm-1 my-2">
-                &copy; 2020 {SITE_NAME}
+                &copy; 2021 {SITE_NAME}-MC
               </div>
               <div className="d-flex order-1 order-sm-2 my-2">
-                <Link to="/terms" className="text-dark-75 text-hover-primary">
-                  {formatMessage({id:"PRIVACY"})}
-                </Link>
-                <Link
-                  to="/terms"
-                  className="text-dark-75 text-hover-primary ml-4"
-                >
-                  {formatMessage({id:"PRIVACY"})}
-                </Link>
-                <Link
-                  to="/terms"
-                  className="text-dark-75 text-hover-primary ml-4"
-                >
-                  {formatMessage({id:"CONTACT"})}
-                </Link>
+                {/*<Link to="/terms" className="text-dark-75 text-hover-primary">*/}
+                {/*  {formatMessage({id:"PRIVACY"})}*/}
+                {/*</Link>*/}
+                {/*<Link*/}
+                {/*  to="/terms"*/}
+                {/*  className="text-dark-75 text-hover-primary ml-4"*/}
+                {/*>*/}
+                {/*  {formatMessage({id:"PRIVACY"})}*/}
+                {/*</Link>*/}
+                {/*<Link*/}
+                {/*  to="/terms"*/}
+                {/*  className="text-dark-75 text-hover-primary ml-4"*/}
+                {/*>*/}
+                {/*  {formatMessage({id:"CONTACT"})}*/}
+                {/*</Link>*/}
               </div>
             </div>
             {/* end::Mobile footer */}

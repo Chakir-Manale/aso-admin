@@ -115,12 +115,12 @@ function Login(props) {
         <div className="form-group">
           <div className="d-flex justify-content-between mt-n5">
             <label className="font-size-h6 font-weight-bolder text-dark pt-5">{formatMessage({id:"PASSWORD"})}</label>
-            <AELink
-              to={`/auth/password/forgot`}
-              className="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5"
-              >
-              {formatMessage({id:"AUTH.GENERAL.FORGOT_BUTTON"})}
-            </AELink>
+            {/*<AELink*/}
+            {/*  to={`/auth/password/forgot`}*/}
+            {/*  className="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5"*/}
+            {/*  >*/}
+            {/*  {formatMessage({id:"AUTH.GENERAL.FORGOT_BUTTON"})}*/}
+            {/*</AELink>*/}
           </div>
           <input
             placeholder={formatMessage({id:"PASSWORD"})}
